@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style.css">
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <title>Document</title>
+</head>
+<body>
+    <!-- Pre-load -->
+    <!-- <div class="preload">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div> -->
+
+    <div class="fancy-link-div">
+
+        <a href="https://www.adaptics.hu" class="fancy-link">heeeeeeeeeeeeeeeeeeeeey</a>
+
+    </div>
+    <div class="fancy-button-div">
+        <button class="button">ye</button>
+        <button class="button">yeye</button>
+        <button class="button">yeyees</button>
+    </div>
+
+    <div class="container">
+        <div class="div1"></div>
+        <div class="div2"></div>
+        <div class="div3"></div>
+    </div>
+
+    <div class="js-div">
+        <div class="div4"></div>
+        <div class="div5"></div>
+        <div class="div6"></div>
+    </div>
+
+    <div class="shapes">
+        <div class="shape1">
+
+        </div>
+        <div class="shape2">
+            
+        </div>
+    </div>
+
+    <div class="swip">
+        <!-- Swiper -->
+        <div class="swiper-container mySwiper">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <h1>Founders</h1>
+                <img src="./@martdeneme.png" alt="">
+            </div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+            <div class="swiper-slide">Slide 4</div>
+            <div class="swiper-slide">Slide 5</div>
+            <div class="swiper-slide">Slide 6</div>
+            <div class="swiper-slide">Slide 7</div>
+            <div class="swiper-slide">Slide 8</div>
+            <div class="swiper-slide">Slide 9</div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+
+    <div class="laptop">
+        <div class="div10">
+            <div class="kep">
+                <img src="./background_full_fixed.png" alt="" id="laptopimg">
+            </div>
+        </div>
+        <div class="div20"></div>
+    </div>
+
+    <div class="flex-resp">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+
+    <script src="./load-event.js"></script>
+</body>
+</html>
